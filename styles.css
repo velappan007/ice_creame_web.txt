@@ -1,0 +1,261 @@
+/* nav-bar */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+#navbar{
+position: sticky;
+top: 0;
+left: 0;
+z-index: 100;
+padding: .5rem 5rem;
+box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+background:#ffcccb;
+justify-content: space-around;
+}
+.container-fluid img{
+    width: 50px;
+    height: 50px;
+    margin:0px;
+    padding: .1rem;
+    border-radius: 90px;
+    box-shadow: 5px 5px 20px rgba(219, 9, 125, 0.5);
+}
+.navbar .navbar-brand{
+    font-size: 50px;
+    font-weight: 800;
+    color: #000000 !important;
+    border: none;
+   
+}
+#navbarSupportedContent a{
+color: #000000;
+font-weight: 500;
+border-bottom: 2px solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700 ;
+}
+#navbarSupportedContent button{
+    background:#29f700;
+    width: 5rem;
+    border-radius: 15px;
+    padding: 0px 5px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/****Home****/
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4));
+    background: cover;
+    background-position: center;
+    background-color: #f72a67;
+    align-items: center;
+   
+   
+}
+
+
+#home h1{
+    font-size: 100px;
+    color: rgb(219, 15, 134);
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #11b90b,
+                 0px 6px 0px #7c1e1e,
+                 5px 5px 20px rgba(0,0,0,.5);
+                
+                
+}
+#home p{
+    font-size: 18px;
+    color: #fff;
+}
+#home .input-group img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+
+
+/***Flavors***/
+
+#flavors{
+    background-image: url(bg1.jpg);
+    background: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+   
+}
+.flavor {
+    width: 700px;
+    height: 300px;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 140px;
+    transition: .1s;
+}
+
+#flavors img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+   transition: .2s;
+  
+}
+#flavors h1{
+    font-weight: 700;
+    font-size: 100px;
+    color: #e70ab0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #11b90b,
+                 0px 6px 0px #7c1e1e,
+                 5px 5px 20px rgba(0,0,0,.10);
+}
+#flavors h3{
+   
+    text-align: right;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 2rem;
+    margin-right: 50px;
+    justify-content: center;
+    color: #e70ab0;
+    position: relative;
+    bottom:250px;
+}
+
+#flavors p{
+    display: flex;
+    text-align: left;
+    padding: 2rem;
+   margin-left: 10px;
+    justify-content: right;
+    flex-direction:column;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom:280px;
+    font-weight: 300;
+    font-size: 10px;
+    align-items: end;
+
+}
+
+.flavor:hover {
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+    inset -4px -4px 10px white;
+   transition: .2s;
+}
+
+
+/****About Us****/
+
+#about{
+    background: linear-gradient(to left, #a70546,#eb2751 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#about p{
+    color: white;
+}
+#about img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+
+
+/***Contact Us***/
+
+#contact img{
+    height: 100%;
+    border-radius: 30px;
+    margin-left: 70px;
+    
+}
+.box{
+    width: 100% !important;
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+}
+#contact input{
+    margin: 10px 0px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    margin-top: 50px;
+   height: 50px;
+}
+#contact textarea{
+    margin: 10px 0px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+#contact button{
+    background:#29f700;
+    width: 150px;
+    padding: 10px 0px;
+    border-radius: 15px;
+    color: #000000;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcccb;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
